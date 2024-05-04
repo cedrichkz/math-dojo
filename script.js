@@ -12,7 +12,7 @@ function generateQuestions(){
   return questions;
 }
 
-let numberOfQuestions = 3;
+let numberOfQuestions = 5;
 let loadingTime = 3; // in seconds
 let showResultTime = 2; // in seconds
 const mathQuestions = generateQuestions();
