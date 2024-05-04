@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math-dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Home Screen -->
+  <div id="home-screen">
+    <div id="math-dojo-header">
+      <h1>MATH DOJO</h1>
+      <p>how fast can you solve math problems</p>
+    </div>
+    <button class="button-start" id="start-btn" role="button">Start Game</button>
+  </div>
+
+  <!-- Load Screen -->
+  <div id="load-screen" class="hidden">
+    <div id="timer-container">
+      <div id="timer">5</div>
+    </div>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="game-screen" class="hidden">
+    <div id="question-container">
+      <p id="question"></p>
+      <input type="text" id="user-answer" placeholder="Enter your answer">
+      <button id="submit-btn">Submit</button>
+      <div id="press-message">press ENTER to submit</div>
+      <div id="error-message"></div>
+    </div>
+  </div>
+
+  <!-- Result Screen -->
+  <div id="result-screen" class="hidden">
+    <div id="result"></div>
+  </div>
+
+  <!-- Score Screen -->
+  <div id="score-screen" class="hidden">
+    <h2>Score Board</h2>
+    <div id="score-message"></div>
+    <div id="time-message"></div>
+    <button id="home-btn">Back to Home</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
