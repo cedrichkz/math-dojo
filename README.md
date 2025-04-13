@@ -1,5 +1,5 @@
 # math-dojo
-An online multiplayer math game
+An online speed math game
 
 Built in Javascript with chatgpt over a weekend.
 
