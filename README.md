@@ -1,4 +1,12 @@
 # math-dojo
+---
+# The Why
+
+# The How
+
+# The Tech
+---
+
 An online speed math game
 
 Built in Javascript with chatgpt over a weekend.
